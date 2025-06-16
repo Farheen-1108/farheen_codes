@@ -1,0 +1,13 @@
+num_lang= ["python","c","c++","java","sql"]
+print("accessing the +ve nums: ")
+print(num_lang[0])
+print(num_lang[1])
+print(num_lang[2])
+print(num_lang[3])
+print(num_lang[4])
+print("accessing the -ve nums: ")
+print(num_lang[-5])
+print(num_lang[-4])
+print(num_lang[-3])
+print(num_lang[-2])
+print(num_lang[-1])
