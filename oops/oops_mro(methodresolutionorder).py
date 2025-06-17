@@ -11,6 +11,7 @@ class C(A):
         print("i am class C")
 class D(B,C):                          # both B,C is given in calling function so it is multiple
     pass                               # as we got the both multiple and hieraracy so it is also hybrid inheritance
+d=D()
 d.myname()
 
 
