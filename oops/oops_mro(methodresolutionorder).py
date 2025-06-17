@@ -3,7 +3,7 @@
 class A:
     def myname(self):                  #self is same for all threee so it is called as hieraracy
         print("i am class A")
-class B(A):                            # myname is same for all three so it is called as method resolution order
+class B(A):                            # myname is same for all three so it is called as method resolution order / method overriding
     def myname(self):
         print("i am class B")                  
 class C(A):
