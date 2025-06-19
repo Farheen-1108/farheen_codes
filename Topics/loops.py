@@ -37,6 +37,7 @@ else:
 # for loop:
 ''' A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
     we can execute a set of statements, once for each item in a list, tuple, set etc.
+    range and in (membership operator) 
 '''
 fruits = ["apple","banana","cherry"]
 for x in fruits:
