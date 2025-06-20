@@ -82,4 +82,44 @@ while (n!=0):
         sum = 0
 print(sum)
 
+# sum of individual digits of the given positive integers number n till the result is of single digit number
+n = int(input("enter the number:"))
+sum = 0
+while (n!=0):
+    digit = n%10
+    sum = sum + digit
+    n = n//10
+    if (n==0 and sum>9):
+        n = sum
+        sum = 0
+print(sum)
+
+#chocolate feast:
+
+def chocolateFeast(n, c, m):
+    nc = n//c
+    wa = nc
+    while wa >=m:
+        nc+=wa//m
+        wa = (wa//m) + (wa%m)
+    return nc
+
+#xif fino:
+def isFibo(n):
+    a = 0
+    b = 1
+    if n==0 or n==1:
+        return "IsFibo"
+    else:
+        while True:
+            c = a+b
+            if c == n:
+                return "IsFibo"
+                break
+            if c>n:
+                return "IsNotFibo"
+                break
+            a = b
+            b = c
+    
 
