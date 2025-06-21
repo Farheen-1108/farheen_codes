@@ -122,9 +122,17 @@ def isFibo(n):
             a = b
             b = c
             
-sherlock and squares:
+#sherlock and squares:
 def squares(a, b):
     x = math.ceil(math.sqrt(a))
     y = math.floor(math.sqrt(b))
     return y-x+1
-   
+#Utopian Tree
+def utopianTree(n):
+    ht = 1
+    for i in range(1,n+1,1):
+        if i%2==0:
+            ht+=1
+        else:
+            ht*=2
+    return ht
