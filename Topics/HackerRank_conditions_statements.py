@@ -88,3 +88,27 @@ def catAndMouse(x, y, z):
     else:
         return "Cat A"
     
+#Library Fine+
+def libraryFine(d1, m1, y1, d2, m2, y2):
+    if (y1<y2):
+        return 0
+    if y1!=y2:
+        return 10000
+    else:
+        if m1<m2:
+            return 0
+        if m1!=m2:
+            return 500 * abs(m1-m2)
+        else:
+            if d1<d2:
+                return 0
+            else:
+                return 15*abs(d1-d2)          
+#Taum and B'day
+def taumBday(b, w, bc, wc, z):
+    if (abs(bc-wc)<=z):
+        return b * bc + w * wc
+    elif bc>wc:
+        return w*wc + (wc+z)*b
+    else:
+        return b*bc + (bc+z)*w
