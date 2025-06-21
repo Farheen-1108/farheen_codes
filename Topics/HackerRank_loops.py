@@ -121,5 +121,10 @@ def isFibo(n):
                 break
             a = b
             b = c
-    
-
+            
+sherlock and squares:
+def squares(a, b):
+    x = math.ceil(math.sqrt(a))
+    y = math.floor(math.sqrt(b))
+    return y-x+1
+   
