@@ -1,0 +1,15 @@
+from collections import deque
+dq = deque(["mon","tues","wed"])
+print(dq)
+#only append add data at right side 
+dq.append("thurs")
+print(dq)
+#appendleft add data left side
+dq.appendleft("sun")
+print(dq)
+#pop is remove data at right side
+dq.pop()
+print(dq)
+#popleft remove data at left side
+dq.popleft()
+print(dq)
