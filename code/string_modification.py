@@ -1,6 +1,0 @@
-str = input("enter the string: ")
-print(str)
-list= str.split()
-print(list)
-result ="".join(list)
-print(result)
