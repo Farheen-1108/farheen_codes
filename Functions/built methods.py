@@ -1,0 +1,17 @@
+frontend = ["html","css","js","react js"]
+print(frontend)
+frontend.append("angular js")
+frontend.insert(3,"bootstrap")
+frontend.pop(4)
+frontend.remove("html")
+print(frontend.index("css"))
+print(frontend)
+frontend.reverse()
+print(frontend)
+backend = ["python","java","c","c++"]
+frontend.extend(backend)
+print(frontend)
+frontend.sort()
+print(frontend)
+frontend.count("css")
+print(frontend)
